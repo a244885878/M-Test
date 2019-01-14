@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name=App-Config content="fullscreen=yes,useHistoryState=yes,transition=yes">
+    <meta content=yes name=apple-mobile-web-app-capable>
+    <meta content=yes name=apple-touch-fullscreen>
+    <meta content="telephone=no,email=no" name=format-detection>
+    <meta name=viewport
+          content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+    <title>个人中心</title>
+    <link rel="stylesheet" href="test1.css">
+    <script>
+        (function (win,doc) {
+            function change() {
+                doc.documentElement.style.fontSize=20*doc.documentElement.clientWidth/375+'px';
+            }
+            change();
+            win.addEventListener('resize',change,false);
+        })(window,document);
+    </script>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+</style>
+<body>
+<div class="title">
+    <span class="span1 span"> < 返回</span>
+    <span class="span2 span">个人中心</span>
+</div>
+    <div id="box">
+        <div class="head">
+            <img src="img/个人中心_02.png">
+        </div>
+        <ul class="list">
+            <li><img src="img/个人中心_05.png"> 订单 </li>
+            <li><img src="img/个人中心_07.png"> 收藏 </li>
+            <li><img src="img/个人中心_09.png"> 推荐 </li>
+        </ul>
+
+        <div class="list2">
+            <div>
+                <span style="float: left;margin-left: 10px">修改个人资料</span>
+                <span style="float: right;margin-right: 10px"> > </span>
+            </div>
+        </div>
+        <div class="list3">
+            <div>
+                <span style="float: left;margin-left: 10px">修改密码</span>
+                <span style="float: right;margin-right: 10px"> > </span>
+            </div>
+        </div>
+        <div class="list2">
+            <div>
+                <span style="float: left;margin-left: 10px">声音消息推送</span>
+                <span style="float: right;margin-right: 10px"> > </span>
+            </div>
+        </div>
+        <div class="list2">
+            <div>
+                <span style="float: left;margin-left: 10px">猜你喜欢</span>
+                <span style="float: right;margin-right: 10px"> > </span>
+            </div>
+        </div>
+        <div class="list3">
+            <div>
+                <span style="float: left;margin-left: 10px">附近热门</span>
+                <span style="float: right;margin-right: 10px"> > </span>
+            </div>
+        </div>
+        <div class="list3">
+            <div>
+                <span style="float: left;margin-left: 10px">推荐商家</span>
+                <span style="float: right;margin-right: 10px"> > </span>
+            </div>
+        </div>
+        <div class="list3">
+            <div>
+                <span style="float: left;margin-left: 10px">设置</span>
+                <span style="float: right;margin-right: 10px"> > </span>
+            </div>
+        </div>
+
+    </div>
+    <ul class="foot">
+        <li><img src="img/个人中心_15.png"><p>首页</p></li>
+        <li><img src="img/个人中心_24.png"><p>商家</p></li>
+        <li><img src="img/个人中心_18.png"><p>购物车</p></li>
+        <li><img src="img/个人中心_21.png"><p>个人中心</p></li>
+    </ul>
+</body>
+</html>
